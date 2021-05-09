@@ -1,10 +1,8 @@
 package com.artemisa;
 
 import com.artemisa.conditionvariable.HungryPerson;
-import lombok.extern.log4j.Log4j2;
 import org.junit.jupiter.api.Test;
 
-@Log4j2
 public class ConditionVariableTest {
 
     @Test
