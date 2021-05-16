@@ -9,7 +9,7 @@ import java.util.concurrent.BlockingQueue;
 @AllArgsConstructor
 public class SoupProducer implements Runnable {
 
-    private BlockingQueue<String> servingLine;
+    private final BlockingQueue<String> servingLine;
 
     @Override
     public void run() {
